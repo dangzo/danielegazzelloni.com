@@ -32,7 +32,7 @@ if($_POST) {
     $mail->Host = 'srv-hp18.netsons.net';            // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
     $mail->Username = 'daniele@danielegazzelloni.com';     // SMTP username
-    $mail->Password = '3xXb7elTyUrk';                         // SMTP password
+    $mail->Password = 'o029Kl7fsM';                         // SMTP password
     $mail->SMTPSecure = 'SSL';                            // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 587;                                    // TCP port to connect to
 
