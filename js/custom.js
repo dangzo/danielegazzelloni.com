@@ -34,7 +34,7 @@
          * Background image
          /* ---------------------------------------------- */
 
-        $('#intro').backstretch(['images/_1992.jpg']);
+        $('#intro').backstretch(['images/_1992.png']);
 
         /* ---------------------------------------------- /*
          * Navbar
