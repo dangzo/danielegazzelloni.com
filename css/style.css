@@ -685,6 +685,7 @@ h3 > .fa {
 
 .resume-items a {
 	color: #000;
+	font-weight: 500;
 	text-decoration: underline;
 }
 
