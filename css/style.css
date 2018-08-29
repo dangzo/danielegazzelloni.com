@@ -559,6 +559,12 @@ h3 > .fa {
 	margin-top: 10px;
 }
 
+#intro .lastUpdated {
+  text-align: center;
+  position: relative;
+  top: 150px;
+}
+
 /* ---------------------------------------------- /*
  * Profile-contact
 /* ---------------------------------------------- */
@@ -757,6 +763,7 @@ h3 > .fa {
  * Contact
 /* ---------------------------------------------- */
 
+
 #contact {
 	background: #18191a;
 	color: #FFF;
@@ -780,9 +787,13 @@ h3 > .fa {
 	color: #FFF;
 }
 
-#footer .copy {
+#footer .copy, #footer .lastUpdated {
 	font-size: 12px;
 	margin: 5px 0;
+}
+
+#footer .lastUpdated {
+	float: left;
 }
 
 .not-available {
