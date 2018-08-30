@@ -42,7 +42,7 @@
     <style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}
     </style>
 </head>
-<body>
+<body id="top">
 <div class="wrapper">
 
     <!-- Preloader -->
@@ -66,7 +66,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Daniele Gazzelloni</a>
+                <a class="navbar-brand" href="#top">Daniele Gazzelloni</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -590,7 +590,7 @@
             <div class="row">
 
                 <div class="col-md-6 col-md-offset-3">
-                    <a href="#" class="btn btn-default btn-custom-2"><i class="fa fa-cloud-download icon-before"></i> Download CV</a>
+                    <a href="#" class="btn btn-default btn-custom-2" id="downloadCV"><i class="fa fa-cloud-download icon-before"></i> Download CV</a>
                 </div>
 
         </div><!-- .container -->
@@ -793,6 +793,11 @@
 <script src="js/smoothscroll.js"></script>
 <!-- Moment -->
 <script src="js/moment.min.js"></script>
+<!-- jsPDF -->
+<script src="js/jspdf.js"></script>
+<script src="js/jspdf.from_html.js"></script>
+<script src="js/jspdf.split_text_to_size.js"></script>
+<script src="js/jspdf.standard_fonts_size.js"></script>
 <!-- Additional custom code -->
 <script src="js/custom.js"></script>
 
@@ -804,7 +809,6 @@
 
     ga('create', 'UA-71350231-1', 'auto');
     ga('send', 'pageview');
-
 </script>
 
 </body></html>
