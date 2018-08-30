@@ -38,3 +38,7 @@ app/build/**
 # tmp directories, if any
 #app/tmp/
 #tmp
+
+
+# Settings file
+settings.php

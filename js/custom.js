@@ -1,6 +1,6 @@
 (function ($) {
 
-    var lastUpdated = new Date(2018, 8, 29);
+    var lastUpdated = new Date(2018, 7, 31);
 
     /* ---------------------------------------------- /*
      * Preloader
