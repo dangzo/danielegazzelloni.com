@@ -1,6 +1,6 @@
 #!/bin/bash
 
-UPDATE_AT=+"%FT%T.000Z"
+UPDATE_AT=+%s
 
 rm .DS_Store
 

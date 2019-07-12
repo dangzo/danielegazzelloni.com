@@ -1,3 +1,12 @@
+<?php
+function getLastUpdateDate() {
+    $dateFile = fopen("update_at.date", "r") or die("Unable to open file!");
+    $updateAtTimestamp = fgets($dateFile);
+    fclose($dateFile);
+    return date('F jS, Y', $updateAtTimestamp);
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -112,7 +121,7 @@
 
         </div><!-- .container -->
 
-        <div class="container"><p class="lastUpdated"></p></div>
+        <div class="container"><p class="lastUpdated"><?php echo getLastUpdateDate(); ?></p></div>
 
         <div class="backstretch" style="left: 0px; top: 0px; overflow: hidden; margin: 0px; padding: 0px; z-index: -999998; position: absolute; width: 1280px; height: 692px;"><img src="images/_1992.png" style="position: absolute; margin: 0px; padding: 0px; border: none; max-height: none; max-width: none; z-index: -999999; width: 1280px; height: 853.333333333333px; left: 0px; top: -80.6666666666667px;" alt=""></div></section>
 
@@ -831,7 +840,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <p class="lastUpdated"></p>
+                    <p class="lastUpdated"><?php echo getLastUpdateDate(); ?></p>
                     <ul class="widget-social-footer">
                         <li><a href="https://github.com/danielegazzelloni"><i class="fa fa-github fa-fw"></i></a></li>
                         <li><a href="skype:daniele.0488?chat"><i class="fa fa-skype fa-fw"></i></a></li>

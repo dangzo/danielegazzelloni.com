@@ -31,16 +31,6 @@
             }
         });
 
-        /* ---------------------------------------------- /*
-         * Last updated date
-        /* ---------------------------------------------- */
-
-        $.get('./update_at.date', function(data) {
-            const lastUpdated = new Date(data.trim());
-            console.log(lastUpdated, data);
-            $(".lastUpdated").text("Last updated: "+moment(lastUpdated).format('MMMM Do, YYYY'));
-        }, 'text');
-
 
         /* ---------------------------------------------- /*
          * Background image
