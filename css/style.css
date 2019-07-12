@@ -873,3 +873,19 @@ h3 > .fa {
     
 }
 
+/* ---------------------------------------------- /*
+ * Custom
+/* ---------------------------------------------- */
+
+b, strong {
+	color: #666;
+}
+
+h4.quick-facts {
+	margin-top: 2em;
+	margin-bottom: 1.2em;
+}
+
+.quick-facts li {
+	margin-bottom: 15px;
+}
