@@ -1,7 +1,5 @@
 (function ($) {
 
-    var lastUpdated = new Date(2019, 6, 11);
-
     /* ---------------------------------------------- /*
      * Preloader
      /* ---------------------------------------------- */
@@ -35,8 +33,13 @@
 
         /* ---------------------------------------------- /*
          * Last updated date
-         /* ---------------------------------------------- */
-         $(".lastUpdated").text("Last updated: "+moment(lastUpdated).format('MMMM Do, YYYY'));
+        /* ---------------------------------------------- */
+
+        $.get('./update_at.date', function(data) {
+            const lastUpdated = new Date(data.trim());
+            console.log(lastUpdated, data);
+            $(".lastUpdated").text("Last updated: "+moment(lastUpdated).format('MMMM Do, YYYY'));
+        }, 'text');
 
 
         /* ---------------------------------------------- /*
