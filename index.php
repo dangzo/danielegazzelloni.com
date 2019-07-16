@@ -208,10 +208,11 @@ function getLastUpdateDate() {
                     
                     <ul class="quick-facts">
                       <li>I graduated in Computer Engineering in 2012 and <em><strong>I work remotely</strong></em> since then.</li>
-                      <li>In the last 4 years I built and maintained a business web/mobile app written in Meteor.js, as well as   mastering the art of front-end development with <strong>Vue</strong> and <strong>React</strong>.</li>
-                      <li>I have a detail oriented work style, always striving to write good, quality code. Let's say, I recently discovered  I can’t live without Linting anymore.</li>
+                      <li>In the last 4 years I built and maintained a business web/mobile app as a single product developer.</li>
+                      <li>I'm pretty good with <strong>React</strong> but <strong>Vue.js</strong> is where I really shine.</li>
+                      <li>I might not be a rockstar developer, but I always strive to deliver DRY high quality code.</li>
+                      <li>I have experience working in small teams and <strong>startup environment</strong>.</li>
                       <li>I fluently speak <strong>English</strong>, <strong>Spanish</strong> and <strong>Italian</strong>.</li>
-                      <li>In my free time I love to stay fit going running, rock climbing, playing tennis or just being active doing any kind of activity.</li>
                     </ul>
                     
                     <br />
