@@ -202,7 +202,7 @@ function getLastUpdateDate() {
 
                     <p>Hello!</p>
                     
-                    <p>My name is Daniele Gazzelloni, an Italian full-stack developer with strong expertise on technologies based on <strong>JavaScript</strong>. I'm currently pretty good with <strong>Vue</strong>, <strong>React</strong>, <strong>Node</strong> and <strong>Meteor.js</strong>.
+                    <p>My name is Daniele Gazzelloni, an Italian full-stack developer with with focus on Vue.js and frontend development. I'm currently pretty good with <strong>Vue</strong>, <strong>React</strong>, <strong>Node</strong> and <strong>Meteor.js</strong>.
 
                     <h4 class="quick-facts">Quick facts about me:</h4>
                     
@@ -210,7 +210,8 @@ function getLastUpdateDate() {
                       <li>I graduated in Computer Engineering in 2012 and <em><strong>I work remotely</strong></em> since then.</li>
                       <li>In the last 4 years I built and maintained a business web/mobile app as a single product developer.</li>
                       <li>I'm pretty good with <strong>React</strong> but <strong>Vue.js</strong> is where I really shine.</li>
-                      <li>I might not be a rockstar developer, but I always strive to deliver DRY high quality code.</li>
+                      <li>I put huge efforts in delivering high quality code following common best practices
+                      (KISS, DRY, good code organisation and readability, etc.)</li>
                       <li>I have experience working in small teams and <strong>startup environment</strong>.</li>
                       <li>I fluently speak <strong>English</strong>, <strong>Spanish</strong> and <strong>Italian</strong>.</li>
                     </ul>
