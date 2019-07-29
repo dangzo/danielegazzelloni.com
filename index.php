@@ -18,7 +18,7 @@ function getLastUpdateDate() {
     <meta name="author" content="Daniele Gazzelloni">
     <meta name="index" content="index, follow">
 
-    <title>Daniele Gazzelloni | Full-stack Developer, Remote | React, Vue, Node.js, Meteor.js | JavaScript ES8</title>
+    <title>Daniele Gazzelloni | JavaScript Developer, Remote | React, Vue, Node.js, Meteor.js | JavaScript ES8</title>
 
     <!-- hreflang: Google language identification service -->
     <!--<link rel="alternate" hreflang="x-default" href="http://www.danielegazzelloni.com/" />
@@ -106,7 +106,11 @@ function getLastUpdateDate() {
 
                     <div class="hello animated" style="visibility: visible; -webkit-animation:;">
                         <h1>Hello, I'm Daniele Gazzelloni</h1>
-                        <h3><span class="rotate" style="text-shadow: black 0px 0px 18px; opacity: 0.0728612841503524;">  Vue, React, Node.js, Meteor.js. | Remote worker. | JavaScript Developer. </span></h3>
+                        <h3>
+                          <span class="rotate" style="text-shadow: black 0px 0px 18px; opacity: 0.0728612841503524;">
+                            Vue, React, Node.js, Meteor.js. | Remote worker. | JavaScript Developer.
+                          </span>
+                        </h3>
                     </div>
 
                     <a href="#profile">
@@ -202,7 +206,7 @@ function getLastUpdateDate() {
 
                     <p>Hello!</p>
                     
-                    <p>My name is Daniele Gazzelloni, an Italian full-stack developer with with focus on Vue.js and frontend development. I'm currently pretty good with <strong>Vue</strong>, <strong>React</strong>, <strong>Node</strong> and <strong>Meteor.js</strong>.
+                    <p>My name is Daniele Gazzelloni, an Italian full-stack developer with focus on Vue.js and frontend development. I'm currently pretty good with <strong>Vue</strong>, <strong>React</strong>, <strong>Node</strong> and <strong>Meteor.js</strong>.
 
                     <h4 class="quick-facts">Quick facts about me:</h4>
                     
