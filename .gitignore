@@ -32,6 +32,10 @@ node_modules
 # Do not push builds
 app/build/**
 
+# Do not push unnecessary files for demos
+demos/**/.git
+demos/**/.idea
+
 # Apple .DS_Store
 **/.DS_Store
 
