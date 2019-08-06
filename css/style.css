@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 64px;
+	font-size: 5rem;
 	font-weight: 700;
 	margin: 5px 0 15px;
 }
@@ -351,6 +351,12 @@ a,
  * General
 /* ---------------------------------------------- */
 
+@media screen and (max-width: 768px) {
+  .empty {
+    display: none;
+  }
+}
+
 .wrapper {
 	overflow: hidden;
 }
@@ -358,6 +364,13 @@ a,
 .section, .callout {
 	position: relative;
 	padding: 120px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .section, .callout {
+    position: relative;
+    padding: 4em 0;
+  }
 }
 
 .callout {
@@ -590,6 +603,19 @@ h3 > .fa {
 	margin-bottom: 2em;
 }
 
+@media screen and (max-width: 768px) {
+  .profile-widget {
+    margin-bottom: 0;
+  }
+  .profile-widget h3:not(.with-content) {
+    display: none;
+  }
+  .col-md-3.col-sm-6:not(:first-child) .profile-widget h3.with-content {
+    margin-top: 3em;
+    margin-bottom: 1.8em;
+  }
+}
+
 .personal-widget-skill2 {
 	margin-top: 3em;
 }
@@ -597,7 +623,11 @@ h3 > .fa {
 .widget-social {
 	padding: 0;
 	margin: 0;
-    margin-bottom: 69px;
+  margin-bottom: 69px;
+  max-width: 220px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .widget-social li {
@@ -681,6 +711,16 @@ h3 > .fa {
 
 .resume-items {
 	margin-bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .resume-items {
+    text-align: left;
+  }
+
+  .resume-items .col-md-3, .col-md-6 {
+    margin: 2em auto;
+  }
 }
 
 .resume-place {
@@ -887,5 +927,6 @@ h4.quick-facts {
 }
 
 .quick-facts li {
+  text-align: left;
 	margin-bottom: 15px;
 }

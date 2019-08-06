@@ -18,7 +18,7 @@ function getLastUpdateDate() {
     <meta name="author" content="Daniele Gazzelloni">
     <meta name="index" content="index, follow">
 
-    <title>Daniele Gazzelloni | JavaScript Developer, Remote | React, Vue, Node.js, Meteor.js | JavaScript ES8</title>
+    <title>Daniele Gazzelloni | JavaScript Developer, Remote | React, Vue, Node.js | JavaScript ES8</title>
 
     <!-- hreflang: Google language identification service -->
     <!--<link rel="alternate" hreflang="x-default" href="http://www.danielegazzelloni.com/" />
@@ -108,7 +108,7 @@ function getLastUpdateDate() {
                         <h1>Hello, I'm Daniele Gazzelloni</h1>
                         <h3>
                           <span class="rotate" style="text-shadow: black 0px 0px 18px; opacity: 0.0728612841503524;">
-                            Vue, React, Node.js, Meteor.js. | Remote worker. | JavaScript Developer.
+                            Vue, React, Node.js. | Frontend Developer. | Full-Stack Background.
                           </span>
                         </h3>
                     </div>
@@ -180,7 +180,7 @@ function getLastUpdateDate() {
 
                 <div class="col-md-12 headline">
                     <h2>Daniele Gazzelloni</h2>
-                    <p>JavaScript full-stack developer.</p>
+                    <p>Frontend Developer with full-stack JavaScript background.</p>
                 </div>
 
                 <div class="col-md-3 col-sm-6 hidden-xs">
@@ -189,7 +189,6 @@ function getLastUpdateDate() {
                     <div class="social-profiles">
 
                         <div class="profile-widget">
-                            <h3>Social Profiles</h3>
                             <ul class="widget-social">
                                 <li><a href="https://github.com/dangzo"><i class="fa fa-github fa-fw"></i></a></li>
                                 <li><a href="https://www.linkedin.com/in/danielegazzelloni"><i class="fa fa-linkedin fa-fw"></i></a></li>
@@ -201,12 +200,10 @@ function getLastUpdateDate() {
 
                 </div><!-- .col-md-3 -->
 
-                <div class="col-md-9 col-sm-12">
-                    <h3>Professional Profile</h3>
-
+                <div class="col-md-9 col-sm-12" style="padding-top: 0.5em">
                     <p>Hello!</p>
                     
-                    <p>My name is Daniele Gazzelloni, an Italian full-stack developer with focus on Vue.js and frontend development. I'm currently pretty good with <strong>Vue</strong>, <strong>React</strong>, <strong>Node</strong> and <strong>Meteor.js</strong>.
+                    <p>I'm Italian full-stack developer with focus on Vue.js and frontend development. I'm currently pretty good with <strong>Vue</strong>, <strong>React</strong> and <strong>Node.js</strong>.
 
                     <h4 class="quick-facts">Quick facts about me:</h4>
                     
@@ -231,7 +228,7 @@ function getLastUpdateDate() {
                 <div class="col-md-3 col-sm-6">
 
                     <div class="profile-widget">
-                        <h3>Core</h3>
+                        <h3 class="with-content">Core</h3>
 
                         <h5>JavaScript (ES8)</h5>
                         <div class="skill-bar">
@@ -280,7 +277,7 @@ function getLastUpdateDate() {
                 <div class="col-md-3 col-sm-6">
 
                     <div class="profile-widget">
-                        <h3>Secondary</h3>
+                        <h3 class="with-content">Secondary</h3>
 
                         <h5>CSS3, HTML5</h5>
                         <div class="skill-bar">
@@ -329,7 +326,7 @@ function getLastUpdateDate() {
                 <div class="col-md-3 col-sm-6">
 
                     <div class="profile-widget">
-                        <h3>&nbsp;</h3>
+                        <h3 class="empty">&nbsp;</h3>
 
                         <h5>Bootstrap, Material UI</h5>
                         <div class="skill-bar">
@@ -378,7 +375,7 @@ function getLastUpdateDate() {
                 <div class="col-md-3 col-sm-6">
 
                     <div class="profile-widget">
-                        <h3>&nbsp;</h3>
+                        <h3 class="empty">&nbsp;</h3>
 
                         <h5>Git</h5>
                         <div class="skill-bar">
@@ -504,7 +501,7 @@ function getLastUpdateDate() {
 
                 <div class="col-md-6 col-md-offset-3 col-sm-8 resume-item">
                     <h4>Scientific high school degree</h4>
-                    <p>&nbsp;</p>
+                    <p class="empty">&nbsp;</p>
                     <hr class="hidden-xs">
                 </div>
 
