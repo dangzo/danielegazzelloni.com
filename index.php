@@ -180,7 +180,7 @@ function getLastUpdateDate() {
 
                 <div class="col-md-12 headline">
                     <h2>Daniele Gazzelloni</h2>
-                    <p>Frontend Developer with full-stack JavaScript background.</p>
+                    <p>Frontend developer with full-stack JavaScript background.</p>
                 </div>
 
                 <div class="col-md-3 col-sm-6 hidden-xs">
@@ -203,14 +203,14 @@ function getLastUpdateDate() {
                 <div class="col-md-9 col-sm-12" style="padding-top: 0.5em">
                     <p>Hello!</p>
                     
-                    <p>I'm Italian full-stack developer with focus on Vue.js and frontend development. I'm currently pretty good with <strong>Vue</strong>, <strong>React</strong> and <strong>Node.js</strong>.
+                    <p>I'm an Italian frontend developer with strong focus on <strong>JavaScript</strong> technologies like <strong>React</strong>, <strong>Vue.js</strong> and <strong>TypeScript</strong>.
 
                     <h4 class="quick-facts">Quick facts about me:</h4>
                     
                     <ul class="quick-facts">
                       <li>I graduated in Computer Engineering in 2012 and <em><strong>I work remotely</strong></em> since then.</li>
                       <li>In the last 4 years I built and maintained a business web/mobile app as a single product developer.</li>
-                      <li>I'm pretty good with <strong>React</strong> but <strong>Vue.js</strong> is where I really shine.</li>
+                      <li>I have full-stack background (<strong>Node.js</strong>) but I’m addicted to <strong>Vue.js</strong> and <strong>TypeScript</strong></li>
                       <li>I put huge efforts in delivering high quality code following common best practices
                       (KISS, DRY, good code organisation and readability, etc.)</li>
                       <li>I have experience working in small teams and <strong>startup environment</strong>.</li>
