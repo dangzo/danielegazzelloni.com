@@ -180,7 +180,7 @@ function getLastUpdateDate() {
 
                 <div class="col-md-12 headline">
                     <h2>Daniele Gazzelloni</h2>
-                    <p>Frontend developer with full-stack JavaScript background.</p>
+                    <p>Frontend developer, full-stack JavaScript background.</p>
                 </div>
 
                 <div class="col-md-3 col-sm-6 hidden-xs">
@@ -210,10 +210,10 @@ function getLastUpdateDate() {
                     <ul class="quick-facts">
                       <li>I graduated in Computer Engineering in 2012 and <em><strong>I work remotely</strong></em> since then.</li>
                       <li>In the last 4 years I built and maintained a business web/mobile app as a single product developer.</li>
-                      <li>I have full-stack background (<strong>Node.js</strong>) but I’m addicted to <strong>Vue.js</strong> and <strong>TypeScript</strong></li>
+                      <li>I have a full-stack background (<strong>Node.js</strong>) but I’m addicted to <strong>Vue.js</strong> and <strong>TypeScript</strong></li>
                       <li>I put huge efforts in delivering high quality code following common best practices
                       (KISS, DRY, good code organisation and readability, etc.)</li>
-                      <li>I have experience working in small teams and <strong>startup environment</strong>.</li>
+                      <li>I have experience working in small teams and <strong>startup environments</strong>.</li>
                       <li>I fluently speak <strong>English</strong>, <strong>Spanish</strong> and <strong>Italian</strong>.</li>
                     </ul>
 
@@ -439,7 +439,7 @@ function getLastUpdateDate() {
                     -->
 
                     <h3>Available for hiring.</h3>
-                    <p>Mostly looking for companies who hires remotely and using stacks similar to what I've used so far (look my skills above, don't send me offers for Magento or Ruby on Rails please!)</p>
+                    <p>Mostly looking for companies who hires remotely and using a tech stack similar to what I've used so far.</p>
                     <a href="#contact" class="btn btn-default btn-custom-2 callout-btn"><i class="fa fa-paper-plane-o icon-before"></i> Contact me</a>
                 </div>
 
