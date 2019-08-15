@@ -3,11 +3,25 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'danielegazzelloni.com',
+    title: 'Daniele Gazzelloni - Front-end developer',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Daniele Gazzelloni personal website' }
+      {
+          name: 'keywords',
+          content: `
+            front-end developer, daniele gazzelloni, nuxt, vue, vuex, vuetify, react, redux, node.js,
+            full-stack, spa, web applications
+          `,
+      },
+      {
+        hid: 'description',
+        name: 'description',
+        content: `
+          Daniele Gazzelloni: front-end developer. SPA, web applications. Vue, Vuex, Nuxt, Vuetify.
+          React, Redux. Node.js, full-stack background.
+        `,
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -24,7 +38,7 @@ module.exports = {
     /*
     ** Run ESLint on save
     */
-    extend (config, { isDev, isClient }) {
+    extend (config: any, { isDev, isClient }: { isDev: boolean, isClient: boolean }) {
       if (isDev && isClient) {
         config.module.rules.push({
           enforce: 'pre',
@@ -35,5 +49,4 @@ module.exports = {
       }
     }
   }
-}
-
+};
