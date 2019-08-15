@@ -203,7 +203,7 @@ function getLastUpdateDate() {
                 <div class="col-md-9 col-sm-12" style="padding-top: 0.5em">
                     <p>Hello!</p>
                     
-                    <p>I'm an Italian frontend developer with strong focus on <strong>JavaScript</strong> technologies like <strong>React</strong>, <strong>Vue.js</strong> and <strong>TypeScript</strong>.
+                    <p>I'm an Italian frontend developer with focus on <strong>JavaScript</strong> technologies like <strong>React</strong>, <strong>Vue.js</strong> and <strong>TypeScript</strong>.
 
                     <h4 class="quick-facts">Quick facts about me:</h4>
                     
@@ -216,10 +216,7 @@ function getLastUpdateDate() {
                       <li>I have experience working in small teams and <strong>startup environment</strong>.</li>
                       <li>I fluently speak <strong>English</strong>, <strong>Spanish</strong> and <strong>Italian</strong>.</li>
                     </ul>
-                    
-                    <br />
 
-                    <p><u>I will only take in consideration remote job opportunities.</u></p>
                 </div>
             </div><!-- .row -->
 
@@ -543,7 +540,7 @@ function getLastUpdateDate() {
                 <!-- -->
                 <div class="col-md-6 col-sm-8 col-md-offset-3 resume-item">
                     <h4>Frontend development, remote</h4>
-                    <p>Development of a <strong>React</strong> frontend for SpotQuest, a platform for frame contracts built with <strong>Node.js</strong> as backend.</p>
+                    <p>Implementation of a <strong>React.js</strong> frontend for a frame contracts platform called SpotQuest. I've been given an HTML/CSS design and a <strong>Node.js</strong> backend.</p>
                     <hr class="hidden-xs">
                 </div>
 
@@ -655,7 +652,7 @@ function getLastUpdateDate() {
 
                 <div class="col-md-6 col-sm-8 col-md-offset-3 resume-item">
                     <h4>Web Development, remote</h4>
-                    <p>Beginning of my freelance activity: websites development in <strong>PHP</strong>, <strong>JavaScript</strong> and <strong>CSS</strong>. <strong>jQuery</strong> was the cool stuff of the moment those years. Mostly local clients, mostly playing with code.</p>
+                    <p>Beginning of my freelance activity: websites development in <strong>PHP</strong>, <strong>JavaScript</strong> and <strong>CSS</strong>. I remember <strong>jQuery</strong> was the cool stuff of the moment those years. Mostly local clients, mostly playing and experimenting.</p>
                     <hr class="hidden-xs">
                 </div>
 
@@ -788,8 +785,6 @@ function getLastUpdateDate() {
                         <li><i class="fa fa-fw fa-envelope-o"></i><a href="mailto:hello@danielegazzelloni.com">hello@danielegazzelloni.com</a></li>
                     </ul>
 
-                    <p style="margin-top: 50px">Please keep in mind I would rarely be keen on accepting a non-remote job offer.</p>
-
                 </div>
 
                 <div class="col-md-6">
@@ -846,8 +841,9 @@ function getLastUpdateDate() {
                     <p class="lastUpdated">Last update: <?php echo getLastUpdateDate(); ?></p>
                     <ul class="widget-social-footer">
                         <li><a href="https://github.com/danielegazzelloni"><i class="fa fa-github fa-fw"></i></a></li>
-                        <li><a href="skype:daniele.0488?chat"><i class="fa fa-skype fa-fw"></i></a></li>
+                        <!-- <li><a href="skype:daniele.0488?chat"><i class="fa fa-skype fa-fw"></i></a></li> -->
                         <li><a href="https://www.linkedin.com/in/danielegazzelloni/en"><i class="fa fa-linkedin fa-fw"></i></a></li>
+                        <li><a href="mailto:hello@danielegazzelloni.com"><i class="fa fa-envelope-o"></i></a></li>
                     </ul>
                 </div>
 
