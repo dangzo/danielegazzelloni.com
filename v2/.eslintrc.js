@@ -34,11 +34,11 @@ module.exports = {
   settings: {
     'import/resolver': {
       node: {
-        paths: ['.'],
+        paths: ['src'],
       },
       alias: [
-        ['@', path.resolve(__dirname, '.')],
-        ['~', path.resolve(__dirname, '.')],
+        ['@', path.resolve(__dirname, 'src')],
+        ['~', path.resolve(__dirname, 'src')],
       ],
     },
   },
