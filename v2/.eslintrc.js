@@ -1,21 +1,45 @@
+const path = require('path');
+
 module.exports = {
   root: true,
   env: {
     browser: true,
     node: true
   },
+  plugins: [
+    '@typescript-eslint'
+  ],
   parserOptions: {
-    parser: 'babel-eslint'
+    parser: '@typescript-eslint/parser'
   },
   extends: [
     // https://github.com/vuejs/eslint-plugin-vue#priority-a-essential-error-prevention
     // consider switching to `plugin:vue/strongly-recommended` or `plugin:vue/recommended` for stricter rules.
-    'plugin:vue/essential'
+    '@nuxtjs',
+    'airbnb-base',
+    'plugin:@typescript-eslint/recommended',
+    'prettier',
+    'prettier/vue',
+    'prettier/@typescript-eslint',
+    'plugin:prettier/recommended',
+    'plugin:vue/recommended',
+    '@vue/typescript'
   ],
-  // required to lint *.vue files
-  plugins: [
-    'vue'
-  ],
-  // add your custom rules here
-  rules: {}
+  rules: {
+    'no-console': ['error', { 'allow': ['log', 'debug', 'warn', 'error'] }],
+    '@typescript-eslint/explicit-member-accessibility': 'off',
+    'vue/max-attributes-per-line': 'off',
+    'vue/html-self-closing': 'off'
+  },
+  settings: {
+    'import/resolver': {
+      node: {
+        paths: ['.'],
+      },
+      alias: [
+        ['@', path.resolve(__dirname, '.')],
+        ['~', path.resolve(__dirname, '.')],
+      ],
+    },
+  },
 }
