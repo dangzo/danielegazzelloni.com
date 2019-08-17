@@ -8,7 +8,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
+import { Component, Vue } from 'nuxt-property-decorator';
 import sidebar from './parts/sidebar.vue';
 
 @Component({
@@ -38,6 +38,8 @@ html {
   box-sizing: border-box;
 
   body {
+    background-color: $dark;
+
     h1 {
       font-size: 4.8rem;
     }

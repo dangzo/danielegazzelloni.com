@@ -29,6 +29,14 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  // To load shared scss files without the need of @import in every Vue component
+  modules: [
+    '@nuxtjs/style-resources',
+  ],
+  styleResources: {
+   // your settings here
+   scss: './assets/styles/bulma.scss'
+  },
   /*
   ** Customize the progress bar color
   */

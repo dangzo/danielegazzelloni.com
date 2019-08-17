@@ -1,5 +1,5 @@
 <template>
-  <div class="sidebar">
+  <div class="sidebar is-white">
     <div class="logo">L</div>
     <p class="main">color main</p>
     <p class="secondary">
@@ -13,10 +13,13 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
+import { Component, Vue } from 'nuxt-property-decorator';
 
 @Component
 export default class Sidebar extends Vue {}
 </script>
 
-<style lang="scss"></style>
+<style lang="scss" scoped>
+.sidebar {
+}
+</style>
