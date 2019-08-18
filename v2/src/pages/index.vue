@@ -1,21 +1,31 @@
 <template>
-  <section class="container">
-    <div>
-      <h1 class="main-heading">
-        <span>Hi,</span>
-        <span>I'm Daniele Gazzelloni,</span>
-        <span>front-end developer.</span>
-      </h1>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green bg-accent">
-          Documentation
+  <div class="container is-fluid">
+    <h1 class="home-heading has-text-left">
+      <span>Hi,</span>
+      <span>I'm Daniele,</span>
+      <span>web developer.</span>
+    </h1>
+    <h2 class="subtitle">Front-end developer / Vue / CSS3.</h2>
+    <h1>Simple h1</h1>
+    <h2>Simple h2</h2>
+
+    <div class="columns">
+      <div class="column">
+        <a href="#" target="_blank" class="button is-primary">
+          Primary button
         </a>
-        <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">
-          GitHub
+        <a href="#" target="_blank" class="button is-accent">
+          Accent button
         </a>
+        <a href="#" target="_blank">
+          Default link
+        </a>
+        <p class="main">color main</p>
+        <a href="#" class="has-text-accent">accent link</a>
+        <span class="has-background-accent">accent span</span>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script lang="ts">
@@ -23,22 +33,18 @@ export default {};
 </script>
 
 <style lang="scss">
-.main-heading {
+.home-heading {
+  font-weight: 800;
+  font-size: 4.2rem;
+  line-height: 4.5rem;
+  color: $light;
+
   span {
     display: block;
-    text-align: left;
   }
 }
 
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.links {
+.coulmns {
   padding-top: 15px;
 }
 </style>
