@@ -1,16 +1,20 @@
 <template>
-  <div class="container section is-fluid">
-    <h1 class="has-text-left">
-      About
-    </h1>
-    <h2 class="subtitle">If we ever need a subtitle...</h2>
-
-    <div class="main-content">
-      Content
-    </div>
-  </div>
+  <section class="hero-body">
+    <AboutLeft />
+    <AboutRight />
+  </section>
 </template>
 
 <script lang="ts">
-export default {};
+import { Component, Vue } from 'nuxt-property-decorator';
+import AboutLeft from '@/containers/about.left.vue';
+import AboutRight from '@/containers/about.right.vue';
+
+@Component({
+  components: {
+    AboutLeft,
+    AboutRight,
+  },
+})
+export default class About extends Vue {}
 </script>

@@ -1,16 +1,20 @@
 <template>
-  <div class="container section is-fluid">
-    <h1 class="has-text-left">
-      Contact Me
-    </h1>
-    <h2 class="subtitle">If we ever need a subtitle...</h2>
-
-    <div class="main-content">
-      Content
-    </div>
-  </div>
+  <section class="hero-body">
+    <ContactLeft />
+    <ContactRight />
+  </section>
 </template>
 
 <script lang="ts">
-export default {};
+import { Component, Vue } from 'nuxt-property-decorator';
+import ContactLeft from '@/containers/contact.left.vue';
+import ContactRight from '@/containers/contact.right.vue';
+
+@Component({
+  components: {
+    ContactLeft,
+    ContactRight,
+  },
+})
+export default class Contact extends Vue {}
 </script>

@@ -1,9 +1,7 @@
 <template>
   <section class="hero is-fullheight">
     <sidebar />
-    <section class="hero-body">
-      <nuxt />
-    </section>
+    <nuxt />
   </section>
 </template>
 
