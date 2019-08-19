@@ -3,15 +3,22 @@
     <div class="logo">L</div>
     <div class="menu">
       <span class="icon is-medium">
-        <a href="#">
+        <nuxt-link to="#">
           <i class="la la-home"></i>
-        </a>
+        </nuxt-link>
+        <span class="hover-text">home</span>
+      </span>
+      <span class="icon is-medium">
+        <nuxt-link to="#" class="nuxt-link-active">
+          <i class="la la-home"></i>
+        </nuxt-link>
+        <span class="hover-text">home</span>
       </span>
     </div>
     <span class="icon">
-      <a href="#">
+      <nuxt-link to="#">
         <i class="la la-envelope"></i>
-      </a>
+      </nuxt-link>
     </span>
   </div>
 </template>
@@ -74,30 +81,33 @@ export default class Sidebar extends Vue {}
         -o-transition: opacity 400ms ease-out;
         transition: opacity 400ms ease-out;
 
+        &.nuxt-link-active {
+          i {
+            color: $primary;
+          }
+        }
+
         &:hover {
           color: $grey-dark;
           opacity: 0;
         }
 
-        i {
-          &:hover {
-            color: $grey-dark;
+        &:not(.nuxt-link-active) {
+          i {
+            &:hover {
+              color: $grey-dark;
+            }
           }
         }
       }
 
-      &::after {
+      > .hover-text {
         color: $primary;
-        content: 'HOME';
+        font-size: 0.8rem;
         position: absolute;
-        top: 2px;
         text-transform: uppercase;
+        top: 6px;
         z-index: 0;
-
-        -webkit-transition: opacity 400ms ease-out;
-        -moz-transition: opacity 400ms ease-out;
-        -o-transition: opacity 400ms ease-out;
-        transition: opacity 400ms ease-out;
       }
     }
   }
