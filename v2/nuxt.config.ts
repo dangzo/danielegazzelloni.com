@@ -42,6 +42,10 @@ module.exports = {
    // your settings here
    scss: './assets/styles/bulma.scss'
   },
+  devModules: [
+    // To link scss files
+    '@nuxtjs/stylelint-module',
+  ],
   /*
   ** Customize the progress bar color
   */

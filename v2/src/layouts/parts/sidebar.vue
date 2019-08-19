@@ -52,16 +52,6 @@ export default class Sidebar extends Vue {}
         }
       }
     }
-
-    i {
-      font-size: 22px;
-    }
-
-    &.is-medium {
-      i {
-        font-size: 28px;
-      }
-    }
   }
 
   .menu {
@@ -75,7 +65,6 @@ export default class Sidebar extends Vue {}
         position: relative;
         z-index: 1;
         opacity: 1;
-
         -webkit-transition: opacity 400ms ease-out;
         -moz-transition: opacity 400ms ease-out;
         -o-transition: opacity 400ms ease-out;
