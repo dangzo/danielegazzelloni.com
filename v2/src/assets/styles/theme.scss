@@ -75,7 +75,7 @@ html {
     }
 
     .hero-body {
-      padding-left: 2rem;
+      padding-left: 10rem;
 
       .button {
         background-color: transparent;
@@ -123,11 +123,9 @@ html {
       color: #000;
     }
 
-    .sidebar {
-      .icon {
-        i {
-          font-size: 22px;
-        }
+    .icon {
+      i {
+        font-size: 22px;
       }
 
       &.is-medium {

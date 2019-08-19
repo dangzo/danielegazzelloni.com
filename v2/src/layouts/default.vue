@@ -1,10 +1,10 @@
 <template>
-  <div class="hero is-fullheight">
+  <section class="hero is-fullheight">
     <sidebar />
-    <div class="hero-body">
+    <section class="hero-body">
       <nuxt />
-    </div>
-  </div>
+    </section>
+  </section>
 </template>
 
 <script lang="ts">

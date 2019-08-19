@@ -1,26 +1,72 @@
 <template>
-  <div class="sidebar is-white">
-    <div class="logo">L</div>
+  <aside class="sidebar">
+    <!-- logo -->
+    <div class="logo">
+      <nuxt-link to="/">D</nuxt-link>
+    </div>
+
+    <!-- menu -->
     <div class="menu">
+      <!-- home -->
       <span class="icon is-medium">
-        <nuxt-link to="#">
+        <nuxt-link to="/">
           <i class="la la-home"></i>
         </nuxt-link>
         <span class="hover-text">home</span>
       </span>
+
+      <!-- about -->
       <span class="icon is-medium">
-        <nuxt-link to="#" class="nuxt-link-active">
-          <i class="la la-home"></i>
+        <nuxt-link to="/about">
+          <i class="la la-user"></i>
         </nuxt-link>
-        <span class="hover-text">home</span>
+        <span class="hover-text">about</span>
+      </span>
+
+      <!-- skills -->
+      <span class="icon is-medium">
+        <nuxt-link to="/skills">
+          <i class="la la-gears"></i>
+        </nuxt-link>
+        <span class="hover-text">skills</span>
+      </span>
+
+      <!-- my work -->
+      <span class="icon is-medium">
+        <nuxt-link to="/my-work">
+          <i class="la la-eye"></i>
+        </nuxt-link>
+        <span class="hover-text">my work</span>
+      </span>
+
+      <!-- contact -->
+      <span class="icon is-medium">
+        <nuxt-link to="/contact">
+          <i class="la la-envelope"></i>
+        </nuxt-link>
+        <span class="hover-text">contact</span>
       </span>
     </div>
-    <span class="icon">
-      <nuxt-link to="#">
-        <i class="la la-envelope"></i>
-      </nuxt-link>
-    </span>
-  </div>
+
+    <!-- socials -->
+    <div class="socials">
+      <span class="icon">
+        <a href="https://github.com/dangzo" target="_blank">
+          <i class="la la-github"></i>
+        </a>
+      </span>
+      <span class="icon">
+        <a href="https://www.linkedin.com/in/danielegazzelloni" target="_blank">
+          <i class="la la-linkedin"></i>
+        </a>
+      </span>
+      <span class="icon">
+        <nuxt-link to="/contact">
+          <i class="la la-envelope"></i>
+        </nuxt-link>
+      </span>
+    </div>
+  </aside>
 </template>
 
 <script lang="ts">
@@ -32,8 +78,15 @@ export default class Sidebar extends Vue {}
 
 <style lang="scss" scoped>
 .sidebar {
+  background-color: $deep-dark;
+  height: 100%;
+  width: 60px;
+  position: fixed;
+  text-align: center;
+
   .icon {
     width: 60px;
+    margin: 0.4rem auto;
 
     a {
       i {
@@ -54,12 +107,27 @@ export default class Sidebar extends Vue {}
     }
   }
 
+  .logo {
+    margin: 1rem;
+    font-weight: 900;
+    font-size: 2rem;
+
+    a:hover {
+      color: $primary;
+    }
+  }
+
   .menu {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
     .icon {
       position: relative;
+      margin: 0.8rem auto;
 
       a {
-        background-color: $dark;
+        background-color: $deep-dark;
         width: 100%;
         text-align: center;
         position: relative;
@@ -92,13 +160,17 @@ export default class Sidebar extends Vue {}
 
       > .hover-text {
         color: $primary;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         position: absolute;
         text-transform: uppercase;
-        top: 6px;
         z-index: 0;
       }
     }
+  }
+
+  .socials {
+    position: absolute;
+    bottom: 2rem;
   }
 }
 </style>
