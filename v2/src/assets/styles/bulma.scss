@@ -6,6 +6,15 @@ $link: $primary;
 $accent: adjust-hue($danger, -5%);
 $deep-dark: darken($dark, 10%);
 
+/* Forms */
+$input-background-color: $grey-darker;
+$input-border-color: $grey-darker;
+$input-color: $light;
+$input-hover-border-color: $primary;
+$input-radius: 2px;
+$input-shadow: none;
+$input-focus-box-shadow-size: 0;
+
 /* Global settings overwrite */
 $body-background-color: $dark;
 $subtitle-color: $grey;

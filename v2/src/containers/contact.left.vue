@@ -5,6 +5,7 @@
 
     <div class="main-content">
       <p>Use the following form to get in touch about projects, cooperation or ideas.</p>
+      <p>I promise to not bite :)</p>
       <ContactForm />
     </div>
   </div>
