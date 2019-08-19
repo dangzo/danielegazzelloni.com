@@ -1,9 +1,8 @@
 <template>
   <form>
     <div class="field">
-      <label class="label">Name</label>
       <div class="control">
-        <input class="input" type="text" placeholder="Text input" />
+        <input class="input" type="text" placeholder="Name" />
       </div>
     </div>
   </form>

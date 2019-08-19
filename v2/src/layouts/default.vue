@@ -7,7 +7,7 @@
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator';
-import sidebar from './parts/sidebar.vue';
+import sidebar from '@/components/sidebar.vue';
 
 @Component({
   components: {

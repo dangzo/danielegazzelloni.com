@@ -52,12 +52,12 @@
     <div class="socials">
       <span class="icon">
         <a href="https://github.com/dangzo" target="_blank">
-          <i class="la la-github"></i>
+          <i class="fa fa-github"></i>
         </a>
       </span>
       <span class="icon">
         <a href="https://www.linkedin.com/in/danielegazzelloni" target="_blank">
-          <i class="la la-linkedin"></i>
+          <i class="fa fa-linkedin"></i>
         </a>
       </span>
       <span class="icon">
