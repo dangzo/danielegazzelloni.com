@@ -138,7 +138,7 @@ export default class Sidebar extends Vue {}
         -o-transition: opacity 400ms ease-out;
         transition: opacity 400ms ease-out;
 
-        &.nuxt-link-active {
+        &.nuxt-link-exact-active {
           i {
             color: $primary;
           }
