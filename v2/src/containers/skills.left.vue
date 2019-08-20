@@ -1,6 +1,6 @@
 <template>
   <div class="container section has-text-left">
-    <h1>My Skills</h1>
+    <h1>Skills &amp; Experience</h1>
     <h2 class="subtitle">Subtitle here</h2>
 
     <div class="main-content">

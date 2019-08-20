@@ -84,9 +84,18 @@ export default class Sidebar extends Vue {}
   position: fixed;
   text-align: center;
 
+  @media (max-width: 1100px) {
+    width: 100%;
+    height: 60px;
+  }
+
   .icon {
     width: 60px;
     margin: 0.4rem auto;
+
+    @media (max-width: 680px) {
+      width: 40px;
+    }
 
     a {
       i {
@@ -112,6 +121,13 @@ export default class Sidebar extends Vue {}
     font-weight: 900;
     font-size: 2rem;
 
+    @media (max-width: 1100px) {
+      position: absolute;
+      margin: 0 2rem;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
     a:hover {
       color: $primary;
     }
@@ -121,6 +137,12 @@ export default class Sidebar extends Vue {}
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+
+    @media (max-width: 1100px) {
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
 
     .icon {
       position: relative;
@@ -158,12 +180,17 @@ export default class Sidebar extends Vue {}
         }
       }
 
-      > .hover-text {
+      .hover-text {
         color: $primary;
         font-size: 0.7rem;
         position: absolute;
         text-transform: uppercase;
         z-index: 0;
+
+        @media (max-width: 680px) {
+          font-size: 0.5rem;
+          max-width: 40px;
+        }
       }
     }
   }
@@ -171,6 +198,24 @@ export default class Sidebar extends Vue {}
   .socials {
     position: absolute;
     bottom: 2rem;
+
+    @media (max-width: 1100px) {
+      top: 50%;
+      transform: translateY(-50%);
+      bottom: 0;
+      right: 2rem;
+    }
+
+    .icon {
+      @media (max-width: 1100px) {
+        width: 40px;
+        margin: 0;
+      }
+
+      @media (max-width: 680px) {
+        width: 30px;
+      }
+    }
   }
 }
 </style>

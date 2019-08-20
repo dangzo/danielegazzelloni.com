@@ -1,6 +1,7 @@
 @import "~bulma/sass/utilities/_all";
 
 /* Colors settings overwrite */
+$primary: #08fdd8;
 $dark: darken($dark, 8%);
 $link: $primary;
 $accent: adjust-hue($danger, -5%);

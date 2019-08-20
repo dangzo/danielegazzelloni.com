@@ -6,7 +6,7 @@
       <span>web developer.</span>
     </h1>
     <h2 class="subtitle">Front-end / JavaScript / Vue / CSS3.</h2>
-    <a href="#" target="_blank" class="button is-primary">
+    <a href="/contact" class="button is-primary">
       Contact me
     </a>
   </div>
@@ -18,6 +18,16 @@
   font-size: 4.2rem;
   line-height: 4.5rem;
   color: $light;
+
+  @media (max-width: 580px) {
+    font-size: 3.5rem;
+    line-height: 3.8rem;
+  }
+
+  @media (max-width: 450px) {
+    font-size: 2.5rem;
+    line-height: 2.8rem;
+  }
 
   em {
     font-style: italic;
