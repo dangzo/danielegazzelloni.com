@@ -1,6 +1,6 @@
 <script lang="ts">
 export default {
-  asyncData({ redirect }): typeof redirect {
+  asyncData({ redirect }: { redirect: Function }): typeof Function {
     return redirect('/');
   },
 };
