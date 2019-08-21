@@ -39,6 +39,10 @@
     line-height: 2.8rem;
   }
 
+  .name {
+    color: $accent;
+  }
+
   span {
     display: block;
   }

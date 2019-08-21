@@ -126,12 +126,22 @@ html {
     }
 
     p {
-      margin: 1em auto;
+      margin: 0.9em auto;
     }
 
     strong {
-      color: $accent;
+      color: $light;
       font-weight: 700;
+    }
+
+    ul,
+    ol {
+      margin: 1em auto;
+
+      li {
+        margin: 0.9rem 0 0.9rem 1.5rem;
+        font-size: 0.95rem;
+      }
     }
 
     .hero-body {
