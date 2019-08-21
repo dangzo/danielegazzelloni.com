@@ -1,5 +1,5 @@
 <template>
-  <div class="container section has-text-left">
+  <div class="container section">
     <h1>My Work</h1>
     <h2 class="subtitle">Subtitle here</h2>
 

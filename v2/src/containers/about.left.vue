@@ -1,8 +1,6 @@
 <template>
   <div class="container section">
-    <h1 class="has-text-left">
-      About
-    </h1>
+    <h1>About</h1>
     <h2 class="subtitle">If we ever need a subtitle...</h2>
     <div class="main-content">
       <p>
@@ -17,7 +15,7 @@
           I put huge efforts in delivering high quality code following common best practices (KISS, DRY, good code
           organisation and readability, etc.).
         </li>
-        <li>I have experience working in small teams and startup environments..</li>
+        <li>I have experience working in small teams and startup environments.</li>
         <li>I fluently speak English, Spanish and Italian.</li>
       </ul>
     </div>

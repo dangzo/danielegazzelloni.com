@@ -26,7 +26,11 @@ module.exports = {
       }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/favicon.ico'
+      },
       {
         rel: 'stylesheet',
         type: 'text/css',
@@ -36,16 +40,28 @@ module.exports = {
         rel: 'stylesheet',
         type: 'text/css',
         href: 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'
-      }
+      },
+      {
+        rel: 'stylesheet',
+        type: 'text/css',
+        href: 'https://fonts.googleapis.com/css?family=Raleway:600,800&display=swap'
+      },
     ]
   },
+  // Global css files
+  css: [
+    './assets/styles/reset.scss',
+    './assets/styles/bulma.scss',
+    './assets/styles/theme.scss'
+  ],
   // To load shared scss files without the need of @import in every Vue component
   modules: [
     '@nuxtjs/style-resources',
   ],
   styleResources: {
-   // your settings here
-   scss: './assets/styles/bulma.scss'
+    scss: [
+      './assets/styles/variables.scss'
+    ]
   },
   devModules: [
     // To link scss files

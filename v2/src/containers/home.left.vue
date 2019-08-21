@@ -12,7 +12,7 @@
   </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .home-heading {
   font-weight: 800;
   font-size: 4.2rem;
@@ -37,10 +37,6 @@
   @media (max-width: 480px) {
     font-size: 2.5rem;
     line-height: 2.8rem;
-  }
-
-  .name {
-    font-weight: 600;
   }
 
   span {

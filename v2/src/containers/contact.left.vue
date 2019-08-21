@@ -1,5 +1,5 @@
 <template>
-  <div class="container section has-text-left">
+  <div class="container section">
     <h1>Contact Me</h1>
     <h2 class="subtitle">Because every great portfolio website has a cool contact form</h2>
 

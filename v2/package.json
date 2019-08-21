@@ -13,7 +13,6 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "@nuxtjs/style-resources": "^1.0.0",
     "bulma": "^0.7.5",
     "nuxt": "^2.0.0",
     "nuxt-property-decorator": "^2.3.0",
@@ -24,6 +23,7 @@
     "@nuxt/typescript": "^2.8.1",
     "@nuxtjs/eslint-config": "^1.1.2",
     "@nuxtjs/eslint-config-typescript": "^0.1.2",
+    "@nuxtjs/style-resources": "^1.0.0",
     "@nuxtjs/stylelint-module": "^2.0.0",
     "@typescript-eslint/eslint-plugin": "^2.0.0",
     "@typescript-eslint/parser": "^2.0.0",
@@ -39,7 +39,7 @@
     "eslint-plugin-vue": "^4.0.0",
     "node-sass": "^4.12.0",
     "prettier": "^1.18.2",
-    "sass-loader": "^7.2.0",
+    "sass-loader": "^7.3.1",
     "stylelint": "^10.1.0",
     "stylelint-config-standard": "^18.3.0",
     "ts-node": "^8.3.0",
