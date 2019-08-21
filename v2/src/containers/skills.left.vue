@@ -4,9 +4,12 @@
     <h2 class="subtitle">What I'm very good at...</h2>
 
     <div class="main-content">
-      <p>I mainly do <em>front-end development</em>, building web apps components and interactive layouts.</p>
+      <p>
+        I mainly do <em>front-end development</em>, building web apps components and interactive layouts with
+        <em>JavaScript</em>.
+      </p>
 
-      <p>I love <em>Vue.js</em>, <em>JavaScript</em> (<em>TypeScript</em>) and <em>HTML/CSS</em>.</p>
+      <p>I love writing code with <em>Vue.js</em>, <em>TypeScript</em> and <em>HTML/CSS</em>.</p>
 
       <p>
         I have a keen eye for design and I strive for pixel perfection.
@@ -17,7 +20,7 @@
       </p>
 
       <p>
-        I have full-stack experience (<em>Node.js</em>, <em>Meteor.js</em>), and good knowledge of WordPress and React.
+        I have full-stack experience (<em>Node.js</em>, <em>Meteor.js</em>) and good knowledge of WordPress and React.
       </p>
 
       <p>
@@ -39,7 +42,9 @@ export default class SkillsLeft extends Vue {}
 </script>
 
 <style lang="scss" scoped>
-p:last-child {
-  margin-top: 3em;
+p {
+  &:last-child {
+    margin-top: 3em;
+  }
 }
 </style>

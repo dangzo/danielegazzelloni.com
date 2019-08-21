@@ -21,3 +21,9 @@ import ContactForm from '@/components/contact-form.vue';
 })
 export default class ContactLeft extends Vue {}
 </script>
+
+<style lang="scss" scoped>
+.main-content {
+  max-width: 600px;
+}
+</style>
