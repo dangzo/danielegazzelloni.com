@@ -1,6 +1,6 @@
 <template>
-  <div class="container section has-text-left">
-    <h1 class="home-heading has-text-left">
+  <div class="container section">
+    <h1 class="home-heading">
       <span>Hi,</span>
       <span>I'm <em class="name">Daniele</em>,</span>
       <span>web developer.</span>
@@ -19,23 +19,28 @@
   line-height: 4.5rem;
   color: $light;
 
+  @media (max-width: 1550px) {
+    font-size: 3.7rem;
+    line-height: 3.9rem;
+  }
+
+  @media (max-width: 1150px) {
+    font-size: 3.5rem;
+    line-height: 3.7rem;
+  }
+
   @media (max-width: 580px) {
     font-size: 3.5rem;
     line-height: 3.8rem;
   }
 
-  @media (max-width: 450px) {
+  @media (max-width: 480px) {
     font-size: 2.5rem;
     line-height: 2.8rem;
   }
 
-  em {
-    font-style: italic;
-
-    &.name {
-      font-weight: 600;
-      color: $accent;
-    }
+  .name {
+    font-weight: 600;
   }
 
   span {
