@@ -52,6 +52,7 @@ module.exports = {
   css: [
     './assets/styles/reset.scss',
     './assets/styles/bulma.scss',
+    './assets/styles/transitions.scss',
     './assets/styles/theme.scss'
   ],
   // To load shared scss files without the need of @import in every Vue component

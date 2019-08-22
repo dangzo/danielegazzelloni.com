@@ -1,7 +1,7 @@
 <template>
   <div class="container section">
     <h1>About</h1>
-    <h2 class="subtitle">Some insights of who's this guy</h2>
+    <h2 class="subtitle">Some insights on me</h2>
     <div class="main-content">
       <p>
         I'm an Italian developer with a passion for <em>frontend dev</em> and JavaScript technologies, like
@@ -16,7 +16,7 @@
         <li>Graduated in Computer Engineering in 2012</li>
         <li>Full-stack background but addicted to front-end</li>
         <li>Worked in many startup environments and small teams</li>
-        <li>Built and maintained a business web/mobile app for 3 years as a single product developer</li>
+        <li>Built and maintained a remunerable business web/mobile app for 3 years as a single product developer</li>
         <li>Speaking fluently English, Spanish and Italian</li>
         <li>Loving cats and pandas <span class="emoji">🤷🏻‍♂️</span></li>
       </ul>
