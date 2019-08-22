@@ -9,3 +9,6 @@ npm-debug.log
 
 # Nuxt generate
 dist
+
+# sendgrid API key
+./static/PHPMailer/settings.php

@@ -250,8 +250,20 @@ html {
       }
     }
 
+    .has-zero-opacity {
+      opacity: 0;
+    }
+
+    .has-one-opacity {
+      opacity: 1;
+    }
+
     .has-text-accent {
       color: $accent;
+    }
+
+    .has-background-dark {
+      background-color: $dark !important;
     }
 
     .has-background-accent {
