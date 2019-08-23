@@ -4,7 +4,7 @@
       'has-text-primary': type === 'primary' || type === 'success',
       'has-text-accent': type === 'accent' || type === 'error',
     }"
-    class="box has-background-dark has-text-primary"
+    class="box has-background-dark"
   >
     {{ text }}
   </div>

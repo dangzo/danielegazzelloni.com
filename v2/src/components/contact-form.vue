@@ -54,8 +54,13 @@
     </form>
 
     <!-- Displayed on success -->
-    <div :class="{ 'has-zero-opacity': !formSent, 'message-box-container': true }">
-      <MessageBox :text="`Thank you! I will answer you as soon as possible!`" :color="`primary`" />
+    <div v-if="formSent" class="message-box-container">
+      <MessageBox :text="`Thank you! I will answer you as soon as possible!`" :type="`primary`" />
+    </div>
+
+    <!-- Displayed on error -->
+    <div :class="{ 'has-zero-opacity': !hasError }" class="message-box-container has-error">
+      <MessageBox :text="`Oops! Something went wrong. Did you check your internet connection?`" :type="`accent`" />
     </div>
   </div>
 </template>
@@ -79,11 +84,15 @@ export default class ContactForm extends Vue {
 
   formSent = false;
 
+  hasError = false;
+
   name = '';
 
   email = '';
 
   message = '';
+
+  errorMessage = '';
 
   setDirty(fieldName: string): void {
     if (!this.dirtyFields.includes(fieldName)) {
@@ -92,6 +101,7 @@ export default class ContactForm extends Vue {
   }
 
   clearValidity(fieldName: string): void {
+    this.hasError = false;
     this.dirtyFields = this.dirtyFields.filter((name: string) => name !== fieldName);
   }
 
@@ -149,11 +159,9 @@ export default class ContactForm extends Vue {
         },
       });
 
-      console.log(response);
       this.formSent = true;
     } catch (error) {
-      console.log(error);
-      this.formSent = true;
+      this.hasError = true;
     }
 
     this.loading = false;
@@ -169,7 +177,7 @@ export default class ContactForm extends Vue {
 
   form {
     position: relative;
-    z-index: 1;
+    z-index: 2;
     -webkit-transition: opacity 400ms ease-out;
     -moz-transition: opacity 400ms ease-out;
     -o-transition: opacity 400ms ease-out;
@@ -191,8 +199,25 @@ export default class ContactForm extends Vue {
   }
 
   .message-box-container {
-    position: absolute;
-    top: 0;
+    -webkit-transition: opacity 400ms ease-out;
+    -moz-transition: opacity 400ms ease-out;
+    -o-transition: opacity 400ms ease-out;
+    transition: opacity 400ms ease-out;
+
+    &.has-error {
+      position: relative;
+      top: 1rem;
+    }
+
+    &:not(.has-error) {
+      position: absolute;
+      top: 0;
+      z-index: 1;
+    }
+  }
+
+  &.has-zero-opacity {
+    position: relative;
     z-index: 0;
   }
 }
