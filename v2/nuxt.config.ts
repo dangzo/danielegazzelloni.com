@@ -69,9 +69,9 @@ module.exports = {
     '@nuxtjs/stylelint-module',
   ],
   /*
-  ** Customize the progress bar color
+  ** Progress bar color set as primary color
   */
-  loading: { color: '#3B8070' },
+  loading: { color: '#08fdd8' },
   /*
   ** Build configuration
   */
