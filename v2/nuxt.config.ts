@@ -64,7 +64,7 @@ module.exports = {
       './assets/styles/variables.scss'
     ]
   },
-  devModules: [
+  buildModules: [
     // To link scss files
     '@nuxtjs/stylelint-module',
   ],

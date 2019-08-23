@@ -149,7 +149,7 @@ export default class ContactForm extends Vue {
         setTimeout(resolve, 2800);
       });
 
-      const response = await axios({
+      await axios({
         method: 'post',
         url: '/phpmailer/sendEmail.php',
         data: {
