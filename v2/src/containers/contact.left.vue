@@ -23,7 +23,17 @@ export default class ContactLeft extends Vue {}
 </script>
 
 <style lang="scss" scoped>
-.main-content {
-  max-width: 600px;
+.container,
+.section {
+  position: relative;
+  top: 6rem;
+
+  @media (max-width: 1100px) {
+    top: 0rem;
+  }
+
+  .main-content {
+    max-width: 600px;
+  }
 }
 </style>

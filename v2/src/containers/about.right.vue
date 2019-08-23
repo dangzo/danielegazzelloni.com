@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container section">
     <div class="timeline is-centered">
       <div class="timeline-item is-primary">
         <div class="timeline-marker is-primary"></div>
@@ -79,19 +79,25 @@ export default class AboutRight extends Vue {}
 <style lang="scss" scoped>
 @import 'node_modules/bulma-timeline/dist/css/bulma-timeline.sass';
 
-.timeline-content {
-  font-size: 0.85rem;
+.container,
+.section {
+  margin-top: 0;
+  margin-bottom: 0;
 
-  .heading {
-    margin-right: 0;
-    margin-left: 0;
-  }
+  .timeline-content {
+    font-size: 0.85rem;
 
-  p:nth-child(n + 2) {
-    margin: 0;
+    .heading {
+      margin-right: 0;
+      margin-left: 0;
+    }
 
-    @media (max-width: 768px) {
-      margin: 0.4rem 0;
+    p:nth-child(n + 2) {
+      margin: 0;
+
+      @media (max-width: 768px) {
+        margin: 0.4rem 0;
+      }
     }
   }
 }

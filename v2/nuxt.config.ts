@@ -58,6 +58,10 @@ module.exports = {
   // To load shared scss files without the need of @import in every Vue component
   modules: [
     '@nuxtjs/style-resources',
+    'nuxt-leaflet'
+  ],
+  plugins: [
+    { src: '~plugins/vue2mapbox-gl.ts', ssr: false }
   ],
   styleResources: {
     scss: [
