@@ -4,20 +4,20 @@
       <h5 class="is-uppercase">Skills</h5>
       <div class="skills-box">
         <h5 class="heading">Modern JavaScript</h5>
-        <progress class="progress is-line is-primary" value="90" max="100">90%</progress>
+        <progress class="progress is-line is-primary" value="95" max="100">95%</progress>
 
         <h5 class="heading">TypeScript</h5>
-        <progress class="progress is-line is-primary" value="97" max="100">97%</progress>
+        <progress class="progress is-line is-primary" value="98" max="100">98%</progress>
       </div>
     </div>
     <div class="skills-container">
       <h5 class="is-uppercase">Front-end</h5>
       <div class="skills-box">
         <h5 class="heading">Vue.js</h5>
-        <progress class="progress is-line is-primary" value="97" max="100">97%</progress>
+        <progress class="progress is-line is-primary" value="95" max="100">95%</progress>
 
         <h5 class="heading">React</h5>
-        <progress class="progress is-line is-primary" value="70" max="100">70%</progress>
+        <progress class="progress is-line is-primary" value="65" max="100">65%</progress>
 
         <h5 class="heading">HTML/CSS</h5>
         <progress class="progress is-line is-primary" value="100" max="100">100%</progress>
@@ -32,7 +32,7 @@
         <h5 class="heading">Meteor.js</h5>
         <progress class="progress is-line is-primary" value="85" max="100">85%</progress>
 
-        <h5 class="heading">WordPress dev</h5>
+        <h5 class="heading">PHP, WordPress dev</h5>
         <progress class="progress is-line is-primary" value="60" max="100">60%</progress>
       </div>
     </div>
