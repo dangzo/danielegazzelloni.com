@@ -142,7 +142,7 @@ export default class Sidebar extends Vue {
     margin: 0.4rem auto;
 
     @media (max-width: 680px) {
-      width: 40px;
+      width: 50px;
     }
 
     a {
@@ -196,9 +196,16 @@ export default class Sidebar extends Vue {
       transform: translateX(-50%);
     }
 
+    @media (max-width: 680px) {
+      position: fixed;
+      transform: none;
+      left: 8rem;
+    }
+
     @media (max-width: 520px) {
       display: flex;
-      position: fixed;
+      left: 50%;
+      transform: translateX(-50%);
       opacity: 0;
       height: 39px;
       width: 100%;
