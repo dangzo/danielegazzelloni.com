@@ -75,7 +75,8 @@ module.exports = {
     /*
      ** Run ESLint on save
      */
-    extend(config: object, { isDev, isClient }: { isDev: boolean; isClient: boolean }): void {
+    /* eslint-disable-next-line @typescript-eslint/explicit-function-return-type */
+    extend(config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({
           enforce: 'pre',

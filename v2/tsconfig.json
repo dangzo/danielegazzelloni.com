@@ -40,10 +40,12 @@
     ]
   },
   "defaultExtension": "ts",
+  /*
   "include": [
-    "**/*.ts",
-    "**/*.vue"
+    "**\/*.ts",
+    "**\/*.vue"
   ],
+  */
   "exclude": [
     ".nuxt",
     "node_modules",
