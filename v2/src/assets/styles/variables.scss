@@ -2,6 +2,7 @@
 
 /* Colors settings overwrite */
 $primary: #08fdd8;
+$dark: $dark;
 $dark: darken($dark, 5%);
 $link: $primary;
 $accent: adjust-hue($danger, -5%);
@@ -15,6 +16,9 @@ $input-hover-border-color: $grey;
 $input-radius: 2px;
 $input-shadow: none;
 $input-focus-box-shadow-size: 0;
+
+/* Progress bar */
+$progress-bar-background-color: lighten($dark, 5%);
 
 /* Global settings overwrite */
 $body-background-color: $dark;

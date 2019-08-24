@@ -144,6 +144,23 @@ html {
       }
     }
 
+    .progress {
+      /* Needed for Firefox */
+      background-color: lighten($dark, 5%);
+
+      &.is-accent::-webkit-progress-value, {
+        background-color: $accent;
+      }
+
+      &.is-accent::-moz-progress-bar {
+        background-color: $accent;
+      }
+
+      &.is-accent::-ms-fill {
+        color: $accent;
+      }
+    }
+
     .hero-body {
       padding-left: 8rem;
       padding-right: 2rem;
