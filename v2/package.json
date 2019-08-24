@@ -17,6 +17,7 @@
     "bulma": "^0.7.5",
     "bulma-timeline": "^3.0.4",
     "nuxt": "2.8.1",
+    "nuxt-leaflet": "^0.0.19",
     "nuxt-property-decorator": "^2.3.0",
     "ts-node": "^8.3.0",
     "vue": "2.6.10",

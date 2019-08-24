@@ -56,7 +56,10 @@ module.exports = {
     './assets/styles/theme.scss',
   ],
   // To load shared scss files without the need of @import in every Vue component
-  modules: ['@nuxtjs/style-resources'],
+  modules: [
+    '@nuxtjs/style-resources',
+    'nuxt-leaflet',
+  ],
   styleResources: {
     scss: ['./assets/styles/variables.scss'],
   },
