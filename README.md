@@ -2,8 +2,8 @@
 
 Daniele Gazzelloni, front-end developer professional website.
 
-> v1 -> php based
-> v2 -> Vue/Nuxt
+> v1 -> old php based model
+> v2 -> Vue/Nuxt/Cool
 
 ## Build Setup
 

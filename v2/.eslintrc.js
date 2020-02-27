@@ -7,26 +7,27 @@ module.exports = {
     node: true
   },
   plugins: [
-    '@typescript-eslint',
     'prettier'
   ],
   parserOptions: {
-    parser: '@typescript-eslint/parser'
+    parser: 'babel-eslint',
+    sourceType: 'module',
+    ecmaVersion: 2020,
+    allowImportExportEverywhere: true,
+    ecmaFeatures: {
+      legacyDecorators: true
+    }
   },
   extends: [
     '@nuxtjs',
     'airbnb-base',
-    'plugin:@typescript-eslint/recommended',
     'prettier',
     'prettier/vue',
-    'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
-    'plugin:vue/recommended',
-    '@vue/typescript'
+    'plugin:vue/recommended'
   ],
   rules: {
     'no-console': ['error', { 'allow': ['log', 'debug', 'warn', 'error'] }],
-    '@typescript-eslint/explicit-member-accessibility': 'off',
     'vue/max-attributes-per-line': 'off',
     'vue/html-self-closing': 'off'
   },

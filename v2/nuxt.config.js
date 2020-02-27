@@ -47,6 +47,10 @@ module.exports = {
         href: 'https://fonts.googleapis.com/css?family=Raleway:600,800&display=swap',
       },
     ],
+    script: [
+      { src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js' },
+      { src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js' },
+    ],
   },
   // Global css files
   css: [
@@ -56,10 +60,7 @@ module.exports = {
     './assets/styles/theme.scss',
   ],
   // To load shared scss files without the need of @import in every Vue component
-  modules: [
-    '@nuxtjs/style-resources',
-    'nuxt-leaflet',
-  ],
+  modules: ['@nuxtjs/style-resources', 'nuxt-leaflet'],
   styleResources: {
     scss: ['./assets/styles/variables.scss'],
   },

@@ -24,6 +24,10 @@
     line-height: 3.9rem;
   }
 
+  @media (max-width: 1100px) {
+    margin-top: 10rem;
+  }
+
   @media (max-width: 1150px) {
     font-size: 3.5rem;
     line-height: 3.7rem;

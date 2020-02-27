@@ -1,22 +1,25 @@
 # danielegazzelloni.com
 
-> Daniele Gazzelloni personal website, Nuxt version.
+> Daniele Gazzelloni personal website - Nuxt/Vue.
 
 ## Build Setup
 
 ``` bash
 # install dependencies
-$ yarn install
+$ npm install
 
 # serve with hot reload at localhost:3000
-$ yarn dev
+$ npm run dev
 
 # build for production and launch server
-$ yarn build
-$ yarn start
+$ npm run build
+$ npm run start
 
 # generate static project
-$ yarn run generate
+$ npm run generate
+
+# lining / lint fix
+$ npm run lint
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
