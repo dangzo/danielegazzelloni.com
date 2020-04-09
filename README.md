@@ -1,10 +1,20 @@
 # danielegazzelloni.com
 
-Daniele Gazzelloni, front-end developer professional website.
-
-> v1 -> old php based model
-> v2 -> Vue/Nuxt/Cool
+> Daniele Gazzelloni, personal website - Vue.js.
 
 ## Build Setup
 
-For v2 follow the instructions in the [README.md](./v2/README.md).
+``` bash
+# install dependencies
+$ npm install
+
+# serve with hot reload at localhost:8080
+$ npm run serve
+
+# build for production and launch server
+$ npm run build
+$ npm run start
+
+# lining / lint fix
+$ npm run lint
+```
